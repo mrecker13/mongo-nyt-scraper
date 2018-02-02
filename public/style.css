@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+.jumbotron, .well {
+    width: 95%;
+    margin: 15px auto;
+}
+
+.navbar {
+    background-color: rgb(219,46,32);
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+    color: white;
+}
+
+#scrape-btn {
+    margin-top: 7px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+}
+
+#scrape-btn:hover {
+    background-color: darkgray;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.save-btn {
+    background-color: rgb(219,46,32);
+    height: 50px;
+    width: 150px;
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.article-link {
+    color: black;
+}
+
+.unSave-btn {
+    background-color: rgb(219,46,32);
+    height: 50px;
+    width: 200px;
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.note-btn {
+    background-color: rgb(219,46,32);
+    height: 50px;
+    width: 200px;
+    float: right;
+    position: absolute;
+    right: 230px;
+    top: 25px;
+}
+
+.well {
+    background-color: lightgray;
+    position: relative;
+}
